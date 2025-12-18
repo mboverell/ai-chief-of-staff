@@ -351,6 +351,7 @@ This is a work in progress. I'm sharing it to learn in public and connect with o
 
 I'm particularly interested in:
 - How others are approaching AI + personal knowledge management
+- Feedback and ideas for extending the system
 - What's missing or confusing in the documentation
 - Alternative architectures or design choices
 
