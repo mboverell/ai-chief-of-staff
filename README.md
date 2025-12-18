@@ -341,6 +341,21 @@ ai-chief-of-staff/
 
 ---
 
+## Feedback & Discussion
+
+This is a work in progress. I'm sharing it to learn in public and connect with others thinking about similar problems.
+
+**If you have questions, ideas, or want to share how you've adapted this:**
+- Open a thread in [Discussions](https://github.com/mboverell/ai-chief-of-staff/discussions)
+- Or open an [Issue](https://github.com/mboverell/ai-chief-of-staff/issues) for specific feedback
+
+I'm particularly interested in:
+- How others are approaching AI + personal knowledge management
+- What's missing or confusing in the documentation
+- Alternative architectures or design choices
+
+---
+
 ## License
 
 MIT License — use freely, adapt as needed.
