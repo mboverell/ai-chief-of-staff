@@ -213,13 +213,10 @@ Synthesizes a week's worth of meetings, priorities, reflections, and reading int
 
 ### What Makes It Different
 
-**Coach, not admin.** The output isn't "you had 14 meetings." It's "the exploration sprint appears frozen while urgent requests consume bandwidth."
-
-**Multi-week context.** Reads recent reflections to understand trajectory. Is this week an anomaly or part of a trend?
-
-**Reading as signal.** What someone saves to read reveals priorities they haven't articulated. The skill surfaces this.
-
-**Self-improving.** Each review ends with a reflections template. User feedback on what landed vs. missed calibrates future reviews.
+- **Coach, not admin.** The output isn't "you had 14 meetings." It's "the exploration sprint appears frozen while urgent requests consume bandwidth."
+- **Multi-week context.** Reads recent reflections to understand trajectory. Is this week an anomaly or part of a trend?
+- **Reading as signal.** What someone saves to read reveals priorities they haven't articulated. The skill surfaces this.
+- **Self-improving.** Each review ends with a reflections template. User feedback on what landed vs. missed calibrates future reviews.
 
 ---
 
@@ -227,15 +224,11 @@ Synthesizes a week's worth of meetings, priorities, reflections, and reading int
 
 *System is in Phase 1: Steel Thread validation. Check back at Week 4.*
 
-**Infrastructure is solid.** Folder structure, file conventions, and skill procedure are stable. The agent finds files correctly.
-
-**Progressive disclosure works.** Loading context on demand keeps reviews focused.
-
-**Coach voice is valuable.** The shift from "reporting" to "observing" makes the output worth reading.
-
-**Model independence feels real.** I've already switched between Claude models during development. The context is in files, not in any model's memory. If I wanted to try a different provider tomorrow, I could.
-
-**Portability is liberating.** Every interaction produces artifacts I own. No more copying from chat windows.
+- **Infrastructure is solid.** Folder structure, file conventions, and skill procedure are stable. The agent finds files correctly.
+- **Progressive disclosure works.** Loading context on demand keeps reviews focused.
+- **Coach voice is valuable.** The shift from "reporting" to "observing" makes the output worth reading.
+- **Model independence feels real.** I've already switched between Claude models during development. The context is in files, not in any model's memory. If I wanted to try a different provider tomorrow, I could.
+- **Portability is liberating.** Every interaction produces artifacts I own. No more copying from chat windows.
 
 **Open questions for Week 4:**
 - Is the reading integration adding signal or noise?
@@ -265,7 +258,10 @@ The discipline is to not build Phase 2 until Phase 1 is proven useful.
 - Meeting transcription tool → Markdown export
 - Reading highlight sync → Obsidian
 
-**Current Constraint:** The system works with files, not APIs. No direct access to email, Slack, or calendar—everything is inferred from file exports.
+**Current Constraints:**
+- No direct access to email, Slack, or calendar
+- Everything is inferred from file exports
+- The system works with files, not APIs
 
 This is intentional *for now*. The file-first approach keeps things simple and portable while the core system is validated. But it's not the end state.
 
