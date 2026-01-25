@@ -1,6 +1,6 @@
-# Changelog
+# Notes
 
-Evolution of the AI Chief of Staff system. Updated as the system matures.
+Building a personal AI Chief of Staff. What I'm learning as I go.
 
 ---
 
@@ -97,3 +97,33 @@ What's lost? CoS can't schedule meetings or send emails on my behalf. I'm okay w
 - Will the reflections feedback loop improve output over time?
 - How much trajectory context is optimal?
 - Will weekly review usage sustain or decay?
+
+---
+
+## Week 0 (December 2024)
+
+Seven years of notes about myself—annual objectives, weekly reflections, meeting summaries, reading highlights—scattered across Apple Notes, Google Docs, and various tools. Valuable context, completely fragmented.
+
+I knew there were patterns I couldn't see. Commitments I'd forgotten. Contradictions between what I said I wanted and what I actually did. What I needed was something like an executive coach or Chief of Staff: someone to connect the dots, surface blind spots, and ask uncomfortable questions.
+
+The obvious solution: dump everything into ChatGPT. But I wasn't willing to hand seven years of personal context—goals, vulnerabilities, relationship dynamics—to a system I don't fully trust, with no control over storage or usage.
+
+**The question:** Could I build something different? A system that was modular and flexible. That didn't require giving up my privacy and context. That let me access the best of any model, at any time, without lock-in.
+
+### The key insight
+
+Own the context layer yourself. Store everything in plain text files. The intelligence is stateless; the memory lives in your file system. Swap models anytime without losing anything.
+
+### Design constraints
+
+- **Model independence** — Context in files, not vendor memory. Switch models without losing anything.
+- **Privacy** — API access instead of web interfaces. No persistent memory built by vendors.
+- **Portability** — Everything as Markdown. AI writes directly to vault. No content locked in chat windows.
+
+### The approach
+
+- **Make the implicit explicit** — Document objectives, working patterns, what actually happened
+- **Steel thread first** — One skill, working end-to-end, validated over 4+ weeks before expanding
+- **Progressive disclosure** — Load context on demand, not all at once
+
+The full architecture, design principles, and weekly review skill documentation is in [system/](system/).
